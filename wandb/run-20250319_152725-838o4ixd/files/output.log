@@ -1,0 +1,22 @@
+
+Dataset not found , missing paths ['C:\\Users\\Patrick\\Image Analysis\\yolov5helicopter.v1i.yolov9\\data']
+Traceback (most recent call last):
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\train.py", line 634, in <module>
+    main(opt)
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\train.py", line 528, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\train.py", line 79, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\utils\loggers\__init__.py", line 106, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\utils\loggers\wandb\wandb_utils.py", line 192, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\utils\loggers\wandb\wandb_utils.py", line 59, in check_wandb_dataset
+    return check_dataset(data_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\utils\general.py", line 537, in check_dataset
+    raise Exception('Dataset not found ❌')
+Exception: Dataset not found ❌

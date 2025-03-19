@@ -1,0 +1,24 @@
+2025-03-19 15:56:50,991 INFO    MainThread:9980 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-19 15:56:50,991 INFO    MainThread:9980 [wandb_setup.py:_flush():67] Configure stats pid to 9980
+2025-03-19 15:56:50,991 INFO    MainThread:9980 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Patrick\.config\wandb\settings
+2025-03-19 15:56:50,991 INFO    MainThread:9980 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\wandb\settings
+2025-03-19 15:56:50,992 INFO    MainThread:9980 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-19 15:56:50,992 INFO    MainThread:9980 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\wandb\run-20250319_155650-x02oei25\logs\debug.log
+2025-03-19 15:56:50,993 INFO    MainThread:9980 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Patrick\Documents\WebutviklingRepo\yolov9\wandb\run-20250319_155650-x02oei25\logs\debug-internal.log
+2025-03-19 15:56:50,993 INFO    MainThread:9980 [wandb_init.py:init():761] calling init triggers
+2025-03-19 15:56:50,993 INFO    MainThread:9980 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'weights': 'weights/gelan-c.pt', 'cfg': 'models/detect/gelan-c.yaml', 'data': 'data/helicopter.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 0.7, 'obj_pw': 1.0, 'dfl': 1.5, 'iou_t': 0.2, 'anchor_t': 5.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.9, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.15, 'copy_paste': 0.3}, 'epochs': 100, 'batch_size': 8, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'noplots': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'optimizer': 'SGD', 'sync_bn': False, 'workers': 1, 'project': 'runs\\train', 'name': 'exp', 'exist_ok': False, 'quad': False, 'cos_lr': False, 'flat_cos_lr': False, 'fixed_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'seed': 0, 'local_rank': -1, 'min_items': 0, 'close_mosaic': 0, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs\\train\\exp13', '_wandb': {}}
+2025-03-19 15:56:50,993 INFO    MainThread:9980 [wandb_init.py:init():784] starting backend
+2025-03-19 15:56:50,993 INFO    MainThread:9980 [wandb_init.py:init():788] sending inform_init request
+2025-03-19 15:56:51,048 INFO    MainThread:9980 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-19 15:56:51,048 INFO    MainThread:9980 [wandb_init.py:init():798] backend started and connected
+2025-03-19 15:56:51,052 INFO    MainThread:9980 [wandb_init.py:init():891] updated telemetry
+2025-03-19 15:56:51,653 INFO    MainThread:9980 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-19 15:56:52,223 INFO    MainThread:9980 [wandb_init.py:init():990] starting run threads in backend
+2025-03-19 15:56:52,958 INFO    MainThread:9980 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-19 15:56:52,958 INFO    MainThread:9980 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-19 15:56:52,959 INFO    MainThread:9980 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-19 15:56:52,959 INFO    MainThread:9980 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-19 15:56:52,964 INFO    MainThread:9980 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-19 15:56:52,974 INFO    MainThread:9980 [wandb_run.py:_config_callback():1261] config_cb None None {'data_dict': {'path': 'C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\data\\dataset\\helicopter', 'train': 'C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\data\\dataset\\helicopter\\train\\images', 'val': 'C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\data\\dataset\\helicopter\\train\\images', 'names': {0: 'helicopter'}, 'nc': 1}}
+2025-03-19 15:57:08,198 INFO    MsgRouterThr:9980 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

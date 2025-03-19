@@ -1,0 +1,45 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-03-19T14:36:02.698081Z",
+  "args":  [
+    "--data",
+    "data/helicopter.yaml",
+    "--cfg",
+    "models/detect/gelan-c.yaml",
+    "--weights",
+    "weights/gelan-c.pt",
+    "--epochs",
+    "100",
+    "--batch-size",
+    "16",
+    "--hyp",
+    "data/hyps/hyp.scratch-high.yaml"
+  ],
+  "program":  "C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/WongKinYiu/yolov9.git",
+    "commit":  "5b1ea9a8b3f0ffe4fe0e203ec6232d788bb3fcff"
+  },
+  "email":  "patskj99@gmail.com",
+  "root":  "C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9",
+  "host":  "PattedyrPC",
+  "executable":  "C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "codePathLocal":  "train.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "510707175424",
+      "used":  "252877475840"
+    }
+  },
+  "memory":  {
+    "total":  "16407719936"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

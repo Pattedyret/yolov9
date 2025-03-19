@@ -1,0 +1,15 @@
+{"time":"2025-03-19T15:36:02.7024775+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\wandb\\run-20250319_153602-ja8fawxs\\logs\\debug-core.log"}
+{"time":"2025-03-19T15:36:02.8221782+01:00","level":"INFO","msg":"created new stream","id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:02.8221782+01:00","level":"INFO","msg":"stream: started","id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:02.8227491+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:02.8239678+01:00","level":"INFO","msg":"handler: started","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:02.8247988+01:00","level":"INFO","msg":"sender: started","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:03.7528812+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T15:36:06.4675522+01:00","level":"INFO","msg":"stream: closing","id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:06.4675522+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T15:36:06.4693178+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T15:36:07.0958116+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T15:36:07.3438879+01:00","level":"INFO","msg":"handler: closed","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:07.3438879+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:07.3440808+01:00","level":"INFO","msg":"sender: closed","stream_id":"ja8fawxs"}
+{"time":"2025-03-19T15:36:07.3440808+01:00","level":"INFO","msg":"stream: closed","id":"ja8fawxs"}

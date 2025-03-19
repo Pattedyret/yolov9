@@ -1,0 +1,10 @@
+path: ./data/dataset/helicopter  # dataset root dir (relative path)
+train: train/images  # training images folder
+val: train/images    # will use same folder for validation (YOLO will split automatically)
+
+# Classes
+names:
+  0: helicopter  # helicopter class
+
+# Number of classes
+nc: 1 

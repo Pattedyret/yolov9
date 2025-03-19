@@ -1,0 +1,8 @@
+{"time":"2025-03-19T15:58:06.1206967+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Patrick\\Documents\\WebutviklingRepo\\yolov9\\wandb\\run-20250319_155806-i34mjb56\\logs\\debug-core.log"}
+{"time":"2025-03-19T15:58:06.238058+01:00","level":"INFO","msg":"created new stream","id":"i34mjb56"}
+{"time":"2025-03-19T15:58:06.2386088+01:00","level":"INFO","msg":"stream: started","id":"i34mjb56"}
+{"time":"2025-03-19T15:58:06.2386088+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"i34mjb56"}
+{"time":"2025-03-19T15:58:06.2386088+01:00","level":"INFO","msg":"sender: started","stream_id":"i34mjb56"}
+{"time":"2025-03-19T15:58:06.2386088+01:00","level":"INFO","msg":"handler: started","stream_id":"i34mjb56"}
+{"time":"2025-03-19T15:58:07.2132342+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T16:49:55.44974+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/patskj99-hiof/train/i34mjb56/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

@@ -165,8 +165,20 @@ class ComputeLoss:
     def __call__(self, p, targets, img=None, epoch=0):
         loss = torch.zeros(3, device=self.device)  # box, cls, dfl
         feats = p[1] if isinstance(p, tuple) else p
+        
+        if isinstance(feats[0], list):  # Handle DualDDetect output
+            # Process each feature level separately
+            processed_feats = []
+            for feat_level in zip(*feats):  # Transpose the list of lists
+                # Concatenate features at the same level
+                feat_level_cat = torch.cat([f.view(f.shape[0], -1, f.shape[-1]) for f in feat_level], 1)
+                processed_feats.append(feat_level_cat)
+            feats = processed_feats
+
+        # Split predictions
         pred_distri, pred_scores = torch.cat([xi.view(feats[0].shape[0], self.no, -1) for xi in feats], 2).split(
             (self.reg_max * 4, self.nc), 1)
+        
         pred_scores = pred_scores.permute(0, 2, 1).contiguous()
         pred_distri = pred_distri.permute(0, 2, 1).contiguous()
 
@@ -195,7 +207,6 @@ class ComputeLoss:
         target_scores_sum = max(target_scores.sum(), 1)
 
         # cls loss
-        # loss[1] = self.varifocal_loss(pred_scores, target_scores, target_labels) / target_scores_sum  # VFL way
         loss[1] = self.BCEcls(pred_scores, target_scores.to(dtype)).sum() / target_scores_sum  # BCE
 
         # bbox loss
